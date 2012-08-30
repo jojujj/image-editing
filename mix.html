@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="lightbox.css" type="text/css"> 	
+<script type="text/javascript" src="lightbox.js"></script>
+
+
+</head>
+<body>
+	
+	
+	
+	<div id="lightbox" style="display: block; position: absolute; z-index: 100; top: 63.5px; left: 403px;">
+	    <div data-canzoom="yes" data-orient="center" class="pancontainer">
+	    	<a href="#" title="Click to close">
+	        	<img id="lightboxImage" src="file:///Users/jjoju/Desktop/image/image.jpg">
+				<img src="close.gif" id="closeButton" style="position: absolute; z-index: 200;">
+	    	</a>
+
+	    	<div id="lightboxDetails" style="width: 450px;">
+	    			<div id="lightboxCaption" style="display: block;">my caption</div>
+	        		<div id="keyboardMsg">press <a onclick="hideLightbox(); return false;" href="#"><kbd>x</kbd></a> to close</div>
+	    	</div>
+	
+	    </div>
+	</div>
+	
+	
+	
+	<a href="image.jpg" rel="lightbox" title="my caption">
+	<img src="image.jpg" width="150" height="75"alt="left to right: Lokesh, Jess, Brian, and Steph"></a>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="imagepanner.js"> </script>
+</body>	
+</html>
+
