@@ -1,12 +1,9 @@
 #lightbox{
 	background-color:#eee;
 	position:relative;
-	//padding: 10px;
-	//border-bottom: 2px solid #666;
-	//border-right: 2px solid #666;
-	//height: 300px;
-	//width: 400px;
-	//overflow: hidden;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
 	}
 #lightboxDetails{
 	font-size: 0.8em;
@@ -31,9 +28,10 @@
 .pancontainer{
 	position:relative; /*keep this intact*/
 	overflow:hidden; /*keep this intact*/
-	width:400px;
-	height:160px;
 	border:1px solid black;
+	height: 300px;
+	width: 500px;
 	margin:auto;
 }
 
+$
